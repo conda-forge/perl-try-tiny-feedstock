@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   # perl-capture-tiny has no win build
   skip: true  # [win]
   run_exports:
